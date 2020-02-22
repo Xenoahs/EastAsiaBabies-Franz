@@ -43,6 +43,16 @@ Inventory::Inventory(const Inventory &obj)
 
 }
 
+Item& Inventory::operator[](const int index)
+{
+
+	if (index < 0 || index >= this->nrOfItems)
+		throw("Bad Index");
+
+	return *this->itemArr[index];
+
+}
+
 void Inventory::expand()
 {
 
