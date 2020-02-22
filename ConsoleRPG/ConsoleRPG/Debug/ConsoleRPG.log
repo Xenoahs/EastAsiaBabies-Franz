@@ -1,0 +1,12 @@
+﻿  Armor.cpp
+  Generating Code...
+  Compiling...
+  Game.cpp
+c:\users\invictus\desktop\personal projects\c++\consolerpg\consolerpg\inventory.h(25): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+  Skipping... (no relevant changes detected)
+  main.cpp
+  Inventory.cpp
+  Character.cpp
+  ConsoleRPG.vcxproj -> C:\Users\Invictus\Desktop\Personal Projects\C++\ConsoleRPG\Debug\ConsoleRPG.exe
+  ConsoleRPG.vcxproj -> C:\Users\Invictus\Desktop\Personal Projects\C++\ConsoleRPG\Debug\ConsoleRPG.pdb (Full PDB)
