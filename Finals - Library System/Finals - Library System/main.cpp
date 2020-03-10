@@ -4,8 +4,9 @@
 // Date Ended: N/A
 
 #include "loadingScreen.h"
-
+#include "admin.h"
 int main()
+
 {
 
 	loadingScreen loading;

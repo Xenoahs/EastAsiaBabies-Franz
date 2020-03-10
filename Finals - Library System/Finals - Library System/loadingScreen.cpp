@@ -1,6 +1,7 @@
-﻿#include "loadingScreen.h"
+#include "loadingScreen.h"
+#include "admin.h"
 
-HANDLE h = GetStdHandle(STD_OUTPUT_HANDLE);
+HANDLE h = GetStdHandle(STD_OUTPUT_HANDLE); 
 
 loadingScreen::loadingScreen()
 {
@@ -125,12 +126,13 @@ void loadingScreen::mainMenu()
 		{
 
 			case 1:
+		// Dito Lalagay yung menu function ng Student
+
 				system("cls");
 				break;
 			case 2:
-<<<<<<< Updated upstream
 				system("cls");
-=======
+
 		// Dito Lalagay yung menu function ng admin
 				running = false;
 
@@ -138,9 +140,9 @@ void loadingScreen::mainMenu()
 
 				admin adminM;
 				adminM.AdminMenu();
->>>>>>> Stashed changes
 				break;
 		}
+    
 	}
 
 }
