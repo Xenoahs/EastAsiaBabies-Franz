@@ -128,7 +128,17 @@ void loadingScreen::mainMenu()
 				system("cls");
 				break;
 			case 2:
+<<<<<<< Updated upstream
 				system("cls");
+=======
+		// Dito Lalagay yung menu function ng admin
+				running = false;
+
+				system("cls");
+
+				admin adminM;
+				adminM.AdminMenu();
+>>>>>>> Stashed changes
 				break;
 		}
 	}
