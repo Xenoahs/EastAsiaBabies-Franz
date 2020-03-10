@@ -1,0 +1,5 @@
+﻿  Practical Exam.cpp
+C:\Users\Invictus\Desktop\Personal Projects\C++\GitHub Repos\Practical Exam\Practical Exam.cpp(269,59): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+C:\Users\Invictus\Desktop\Personal Projects\C++\GitHub Repos\Practical Exam\Practical Exam.cpp(313,36): warning C4018: '>=': signed/unsigned mismatch
+C:\Users\Invictus\Desktop\Personal Projects\C++\GitHub Repos\Practical Exam\Practical Exam.cpp(362,41): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  Practical Exam.vcxproj -> C:\Users\Invictus\Desktop\Personal Projects\C++\GitHub Repos\Practical Exam\Debug\Practical Exam.exe
