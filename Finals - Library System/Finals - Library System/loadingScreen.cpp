@@ -1,6 +1,7 @@
-﻿#include "loadingScreen.h"
+#include "loadingScreen.h"
+#include "admin.h"
 
-HANDLE h = GetStdHandle(STD_OUTPUT_HANDLE);
+HANDLE h = GetStdHandle(STD_OUTPUT_HANDLE); 
 
 loadingScreen::loadingScreen()
 {
@@ -125,10 +126,14 @@ void loadingScreen::mainMenu()
 		{
 
 			case 1:
+		// Dito Lalagay yung menu function ng Student
+
 				system("cls");
 				break;
 			case 2:
-				system("cls");
+		// Dito Lalagay yung menu function ng admin
+				admin adminM;
+				adminM.AdminMenu();
 				break;
 		}
 	}
