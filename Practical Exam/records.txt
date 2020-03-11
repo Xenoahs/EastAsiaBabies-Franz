@@ -1,2 +1,1 @@
-123456789 1500.000000 Earl Zeann Lumanlan
-123456780 1500.000000 Genesis Charles Tan
+123456789 0.000000 Earl Zeann Lumanlan

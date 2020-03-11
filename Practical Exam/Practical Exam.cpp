@@ -229,7 +229,7 @@ void Record::createRecord()
 	cin >> accountNumber;
 
 	//Checking to see if the user entered 9 digit ID
-	while (to_string(accountNumber).length() < 9 || to_string(accountNumber).length() > 9 )
+	while (cin.fail() || to_string(accountNumber).length() < 9 || to_string(accountNumber).length() > 9 )
 	{
 
 		cout << "Account Number is invalid." << endl;
@@ -254,7 +254,7 @@ void Record::createRecord()
 			cin.ignore(100, '\n');
 
 			cout << "Full Name: ";
-			cin >> fullName;
+			getline(cin, fullName);
 
 			cout << "Preferred Account Number: ";
 			cin >> accountNumber;
@@ -294,8 +294,9 @@ void Record::saveRecord()
 
 void Record::selectRecord()
 {
+	int chosenNumber;
 
-	cout << "Select Record: " << endl << endl;
+	cout << " == SELECT RECORD == " << endl << endl;
 
 	// For "searching" existing records already in the txt file
 	for (size_t i = 0; i < this->record.size(); i++)
@@ -307,17 +308,17 @@ void Record::selectRecord()
 
 	cout << endl;
 
-	cout << "Enter the index of the record you want to access: ";
+	cout << "Enter the account number of the record you want to access: ";
 	cin >> this->choice;
 
-	while (cin.fail() || this->choice >= this->record.size() || this->choice < 0)
+	while (cin.fail() || to_string(this->choice).length() > 9 || to_string(this->choice).length() < 9)
 	{
 
 		cout << "Incorrect Input." << endl;
 		cin.clear();
 		cin.ignore(100, '\n');
 
-		cout << "Enter the number of the record you want to access: ";
+		cout << "Enter the account number of the record you want to access: ";
 		cin >> this->choice;
 
 	}
@@ -325,8 +326,32 @@ void Record::selectRecord()
 	cin.ignore(100, '\n');
 	cout << endl;
 
-	this->activeRecord = this->choice;
+	chosenNumber = this->choice;
 
+	stringstream str;
+	string line = "";
+	int i = 0;
+
+	ifstream inFile;
+	
+	inFile.open("records.txt");
+
+	for (size_t i = 0; i < record.size(); i++)
+	{
+
+		if (inFile.is_open())
+		{
+
+			if (chosenNumber == record[i].accountNumber)
+			{
+
+				activeRecord = i;
+
+			}
+
+		}
+
+	}
 	cout << this->record[this->activeRecord].getFullName() << " is selected." << endl << endl;
 
 }
