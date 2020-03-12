@@ -1,2 +1,0 @@
-# EastAsiaBabies-Franz
-Final Project
