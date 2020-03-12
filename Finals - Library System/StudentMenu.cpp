@@ -1,4 +1,3 @@
-#include "studentMenu.h"
 
 void maximizeWindow()
 {

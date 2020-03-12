@@ -1,4 +1,7 @@
 #include "loadingScreen.h"
+#include "Admin.h"
+
+Admin admin;
 
 void loadingScreen::mainMenu()
 {
@@ -37,25 +40,26 @@ void loadingScreen::mainMenu()
 
 	cout << "\n\n\n";
 
-	cout << "Enter Admin or User to choose: ";
+	cout << setw(100) << "Enter Admin or User to choose: ";
 	getline(cin, choice);
 
 	while(cin.fail() || getChoice() != "Admin" && getChoice() != "User")
 	{
 
-		cout << "Invalid Choice. Please follow the instructions";
+		cout << setw(110) << "Invalid Choice. Please follow the instructions";
 		cin.clear();
 		cin.ignore(100, '\n');
 
-		cout << "Enter Admin or User to choose: ";
+		cout << setw(100) << "Enter Admin or User to choose: ";
 		getline(cin, choice);
 
 	}
 
 	if (getChoice() == "Admin")
 	{
+		system("cls");
 
-		cout << "Admin";
+			admin.loginScreen();
 
 	}
 

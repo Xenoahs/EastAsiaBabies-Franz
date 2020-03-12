@@ -19,10 +19,14 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Admin.cpp" />
+    <ClCompile Include="Books.cpp" />
     <ClCompile Include="loadingScreen.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Admin.h" />
+    <ClInclude Include="Books.h" />
     <ClInclude Include="Includes.h" />
     <ClInclude Include="loadingScreen.h" />
   </ItemGroup>
