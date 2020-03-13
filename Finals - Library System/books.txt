@@ -18,25 +18,45 @@
 
 010 Beyond Good and Evil, Friedrich Nietzsche, General Works
 
-011 On Looking: Eleven Walks with Expert Eyes , Alexandra Horowitz , Psychology and Philosophy
+101 On Looking: Eleven Walks with Expert Eyes , Alexandra Horowitz , Psychology and Philosophy
 
-012 Time Warped: Unlocking the Mysteries of Time Perception , Claudia Hammond , Psychology and Philosophy
+102 Time Warped: Unlocking the Mysteries of Time Perception , Claudia Hammond , Psychology and Philosophy
 
-013 How to Find Fulfilling Work , Roman Krznaric , Psychology and Philosophy
+103 How to Find Fulfilling Work , Roman Krznaric , Psychology and Philosophy
 
-014 Intuition Pumps And Other Tools for Thinking , Daniel Dennet , Psychology and Philosophy
+104 Intuition Pumps And Other Tools for Thinking , Daniel Dennet , Psychology and Philosophy
 
-015 Mastermind: How to Think Like Sherlock Holmes , Maria Konnikova , Psychology and Philosophy
+105 Mastermind: How to Think Like Sherlock Holmes , Maria Konnikova , Psychology and Philosophy
 
-016 Make Good Art , Neil Gaiman , Psychology and Philosophy
+106 Make Good Art , Neil Gaiman , Psychology and Philosophy
 
-017 How Children Succeed , Paul Tough , Psychology and Philosophy
+107 How Children Succeed , Paul Tough , Psychology and Philosophy
 
-018 Thinking: The New Science of Decision-Making, Problem-Solving, and Prediction , John Brockman , Psychology and Philosophy
+108 Thinking: The New Science of Decision-Making, Problem-Solving, and Prediction , John Brockman , Psychology and Philosophy
 
-019 Manage Your Day-to-Day , Jocelyn Glei , Psychology and Philosophy
+109 Manage Your Day-to-Day , Jocelyn Glei , Psychology and Philosophy
 
-020 Give and Take , Adam Grant , Psychology and Philosophy
+110 Give and Take , Adam Grant , Psychology and Philosophy
+
+201 Mere Christianity, C.S Lewis, Religion
+
+202 The God Delusion, Richard Dawkins, Religion
+
+203 God Is Not Great: How Religion Poisons Everything, Christopher Hitchens, Religion
+
+204 The Screwtape Letters, C.S Lewis, Religion
+
+205 Zealot: The Life and Times of Jesus of Nazareth, Reza Aslan, Religion
+
+206 Under the Banner of Heaven: A Story of Violent Faith, John Krakauer, Religion
+
+207 Siddhartha, Hermann Hesse, Religion
+
+208 Tao Te Ching, Lao Tzu, Religion
+
+209 The Bhagavad Gita, Krishna-Dwaipayana Vyasa, Religion
+
+210  Letter to a Christian Nation, Sam Harris, Religion
 
 111 The Lightning Thief , Rick Riordan , Fiction
 
