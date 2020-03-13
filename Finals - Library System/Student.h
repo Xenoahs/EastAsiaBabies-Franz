@@ -30,6 +30,7 @@ public:
 	void registerUser();
 	void saveUser();
 	void loadUser();
+	void locate();
 
 
 	// Accessors

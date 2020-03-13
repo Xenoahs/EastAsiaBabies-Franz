@@ -1,4 +1,11 @@
 #include "Student.h"
+#include "loadingScreen.h"
+#include "Books.h"
+
+loadingScreen load;
+Books use;
+
+Student dothis;
 
 Student::Student()
 {
@@ -172,6 +179,87 @@ void Student::mainMenu()
 	cout << setw(90) << "Enter the number of the task: ";
 	cin >> choice;
 
+
+	switch(choice)
+	{
+	case 1:
+
+		break;
+	case 2:
+
+		break;
+	case 3:
+		dothis.locate();
+		break;
+	case 4:
+		system("cls");
+		use.viewBook();
+		system("cls");
+		break;
+	case 5:
+		system("cls");
+		cin.ignore();
+		load.mainMenu();
+		break;
+	default:
+		break;
+	}
+
+}
+
+void Student::locate()
+{
+	char choice;
+	cout << "[G]-General Works\n";
+	cout << "[P]-Psychology and Philosophy\n";
+	cout << "[R]-Religion\n";
+	cout << "[S]-Social Science\n";
+	cout << "[L]-Language\n";
+	cout << "[N]-Natural Science\n";
+	cout << "[A]-Applied Science\n";
+	cout << "[F]-Fine Arts and Recreation\n";
+	cout << "[I]-Literature\n";
+	cout << "[H]-History and Geography\n";
+
+	cin >> choice;
+
+	switch (choice) 
+	{	
+	case 'G':
+	
+
+		system("pause > 0");
+		break;
+	case 'P':
+
+		break;
+	case 'R':
+
+		break;
+	case 'S':
+
+		break;
+	case 'L':
+
+		break;
+	case 'N':
+
+		break;
+	case 'A':
+
+		break;
+	case 'F':
+
+		break;
+	case 'I':
+
+		break;
+	case 'H':
+
+		break;
+
+	}
+	cin.ignore();
 }
 
 void Student::initialize(const string username, const string password)
