@@ -1,3 +1,23 @@
+001 A Theory of Justice, John Rawls, General Works
+
+002 Essential Manager's Manual, Robert Heller, General Works
+
+003 The Myths of Nutrition and Fitness, Anthony A. Goodman, General Works
+
+004 Death: A Philosophy Course,  Shelly Kagan, General Works
+
+005 The Selfish Gene, Richard Dawkins, General Works
+
+006 Regarding the Pain of Others, Susan Sontag, General Works
+
+007 Personal Memoirs, Ulysses Grant, General Works
+
+008 Relativity: The Special and the General Theory, Albert Einstein, General Works
+
+009 1001 Books You Must Read Before You Die, Peter Boxali, General Works
+
+010 Beyond Good and Evil, Friedrich Nietzsche, General Works
+
 111 The Lightning Thief , Rick Riordan , Fiction
 
 112 A Bend In The River , V.S. Naipaul , Political Fiction
@@ -12,15 +32,15 @@
 
 117 A High Wind In Jamaica , Richard Hughes, Novel
 
-118 A House For Mr Biswas , V.S. Naipaul
+118 A House For Mr Biswas , V.S. Naipaul, Novel
 
-119 A Passage To India , E.M. Forster
+119 A Passage To India , E.M. Forster, Novel
 
-120 A Portrait Of The Artist As A Young Man , James Joyce
+120 A Portrait Of The Artist As A Young Man , James Joyce, Novel
 
-121 A Room With A View , E.M. Forster
+121 A Room With A View , E.M. Forster, Novel
 
-122 All The King’S Men , Robert Penn Warren
+122 All The King’S Men , Robert Penn Warren, Novel
 
 123 An American Tragedy , Theodore Dreiser 
 
