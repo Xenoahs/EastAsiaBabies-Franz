@@ -18,65 +18,90 @@
 
 010 Beyond Good and Evil, Friedrich Nietzsche, General Works
 
-011 On Looking: Eleven Walks with Expert Eyes , Alexandra Horowitz , Psychology and Philosophy
+111 On Looking: Eleven Walks with Expert Eyes , Alexandra Horowitz , Psychology and Philosophy
 
-012 Time Warped: Unlocking the Mysteries of Time Perception , Claudia Hammond , Psychology and Philosophy
+112 Time Warped: Unlocking the Mysteries of Time Perception , Claudia Hammond , Psychology and Philosophy
 
-013 How to Find Fulfilling Work , Roman Krznaric , Psychology and Philosophy
+113 How to Find Fulfilling Work , Roman Krznaric , Psychology and Philosophy
 
-014 Intuition Pumps And Other Tools for Thinking , Daniel Dennet , Psychology and Philosophy
+114 Intuition Pumps And Other Tools for Thinking , Daniel Dennet , Psychology and Philosophy
 
-015 Mastermind: How to Think Like Sherlock Holmes , Maria Konnikova , Psychology and Philosophy
+115 Mastermind: How to Think Like Sherlock Holmes , Maria Konnikova , Psychology and Philosophy
 
-016 Make Good Art , Neil Gaiman , Psychology and Philosophy
+116 Make Good Art , Neil Gaiman , Psychology and Philosophy
 
-017 How Children Succeed , Paul Tough , Psychology and Philosophy
+117 How Children Succeed , Paul Tough , Psychology and Philosophy
 
-018 Thinking: The New Science of Decision-Making, Problem-Solving, and Prediction , John Brockman , Psychology and Philosophy
+118 Thinking: The New Science of Decision-Making, Problem-Solving, and Prediction , John Brockman , Psychology and Philosophy
 
-019 Manage Your Day-to-Day , Jocelyn Glei , Psychology and Philosophy
+119 Manage Your Day-to-Day , Jocelyn Glei , Psychology and Philosophy
 
-020 Give and Take , Adam Grant , Psychology and Philosophy
+120 Give and Take , Adam Grant , Psychology and Philosophy
 
-021 Mere Christianity, C.S Lewis, Religion
+221 Mere Christianity, C.S Lewis, Religion
 
-022 The God Delusion, Richard Dawkins, Religion
+222 The God Delusion, Richard Dawkins, Religion
 
-023 God Is Not Great: How Religion Poisons Everything, Christopher Hitchens, Religion
+223 God Is Not Great: How Religion Poisons Everything, Christopher Hitchens, Religion
 
-024 The Screwtape Letters, C.S Lewis, Religion
+224 The Screwtape Letters, C.S Lewis, Religion
 
-025 Zealot: The Life and Times of Jesus of Nazareth, Reza Aslan, Religion
+225 Zealot: The Life and Times of Jesus of Nazareth, Reza Aslan, Religion
 
-026 Under the Banner of Heaven: A Story of Violent Faith, John Krakauer, Religion
+226 Under the Banner of Heaven: A Story of Violent Faith, John Krakauer, Religion
 
-027 Siddhartha, Hermann Hesse, Religion
+227 Siddhartha, Hermann Hesse, Religion
 
-028 Tao Te Ching, Lao Tzu, Religion
+228 Tao Te Ching, Lao Tzu, Religion
 
-029 The Bhagavad Gita, Krishna-Dwaipayana Vyasa, Religion
+229 The Bhagavad Gita, Krishna-Dwaipayana Vyasa, Religion
 
-030  Letter to a Christian Nation, Sam Harris, Religion
+230  Letter to a Christian Nation, Sam Harris, Religion
 
-131 Child, Family, and Community , Rebecca Laff , Social Science
+331 Child, Family, and Community , Rebecca Laff , Social Science
 
-132 Psychology: The Science of Human Potential , Jeffrey Levy , Social Science
+332 Psychology: The Science of Human Potential , Jeffrey Levy , Social Science
 
-133 Trauma-Informed School Practices: Building Expertise To Transform Schools , Anna Berardi , Social Science
+333 Trauma-Informed School Practices: Building Expertise To Transform Schools , Anna Berardi , Social Science
 
-134 Child Growth and Development , Jeniffer Paris , Social Science
+334 Child Growth and Development , Jeniffer Paris , Social Science
 
-135 Statistical Thinking for the 21st Century , Russell Poldrack , Social Science
+335 Statistical Thinking for the 21st Century , Russell Poldrack , Social Science
 
-136 Wellbeing in Educational Contexts , Susan Carter , Social Science
+336 Wellbeing in Educational Contexts , Susan Carter , Social Science
 
-137 Speaking of Culture , Nolan Weil , Social Science
+337 Speaking of Culture , Nolan Weil , Social Science
 
-138 Introduction to Design Equity , Kristine Miller, Social Science
+338 Introduction to Design Equity , Kristine Miller, Social Science
 
-139 The Art of Being Human: A Textbook for Cultural Anthropology , Michael Wesch , Social Science
+339 The Art of Being Human: A Textbook for Cultural Anthropology , Michael Wesch , Social Science
 
-140 Beyond Race: Cultural Influences on Human Social Life , Vera Kennedy , Social Science
+340 Beyond Race: Cultural Influences on Human Social Life , Vera Kennedy , Social Science
+
+401 The Mother Tongue: English and How It Got That Way, Bill Bryson, Language
+
+402 Eats, Shoots & Leaves: The Zero Tolerance Approach to Punctuation, Lynne Truss, Language
+
+403 The Language Instinct: How the Mind Creates Language, Steven Pinker, Language
+
+404 Through the Language Glass: Why the World Looks Different in Other Languages, Guy Deutscher, Language
+
+405 The Elements of Style, William Strunk Jr., Language
+
+406 Fluent Forever: How to Learn Any Language Fast and Never Forget It,  Gabriel Wyner, Language
+
+407 The Etymologicon: A Circular Stroll through the Hidden Connections of the English Language,  Mark Forsyth, Language
+
+408 Empires of the Word: A Language History of the World, Nicholas Ostler, Language
+
+409 Our Magnificent Bastard Tongue: The Untold History of English, John McWhorter, Language
+
+410 The Adventure of English: The Biography of a Language, Melvyn Bragg, Language
+
+
+
+
+
 
 
 
