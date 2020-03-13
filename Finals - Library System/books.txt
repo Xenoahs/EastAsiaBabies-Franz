@@ -98,7 +98,25 @@
 
 410 The Adventure of English: The Biography of a Language, Melvyn Bragg, Language
 
+511 Applications of Maxwell's Equations , John Cochran , Natural Science
 
+512 Foundations of Epidemiology , Marit Bovbjerg , Natural Science
+
+513 Human Anatomy Lab Manual , Malgosia Wilk-Blaszczak , Natural Science
+
+514 Bending the Curve: Climate Change Solutions , Roger Aines , Natural Science
+
+515 Conservation Biology in Sub-Saharan Africa , John Wilson , Natural Science
+
+516 A Laboratory Guide to Clinical Hematology , Valentin Villatoro , Natural Science
+
+517 University Physics I: Classical Mechanics , Julio Gea-Banacloche , Natural Science
+
+518 Astronomy for Educators , Daniel Barth , Natural Science
+
+519 Quantitative Ecology: A New Unified Approach , Clarence Lehman , Natural Science
+
+520 Undergraduate Diagnostic Imaging Fundamentals , Brent Burbridge , Natural Science
 
 
 
