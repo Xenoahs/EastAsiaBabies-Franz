@@ -18,6 +18,26 @@
 
 010 Beyond Good and Evil, Friedrich Nietzsche, General Works
 
+011 On Looking: Eleven Walks with Expert Eyes , Alexandra Horowitz , Psychology and Philosophy
+
+012 Time Warped: Unlocking the Mysteries of Time Perception , Claudia Hammond , Psychology and Philosophy
+
+013 How to Find Fulfilling Work , Roman Krznaric , Psychology and Philosophy
+
+014 Intuition Pumps And Other Tools for Thinking , Daniel Dennet , Psychology and Philosophy
+
+015 Mastermind: How to Think Like Sherlock Holmes , Maria Konnikova , Psychology and Philosophy
+
+016 Make Good Art , Neil Gaiman , Psychology and Philosophy
+
+017 How Children Succeed , Paul Tough , Psychology and Philosophy
+
+018 Thinking: The New Science of Decision-Making, Problem-Solving, and Prediction , John Brockman , Psychology and Philosophy
+
+019 Manage Your Day-to-Day , Jocelyn Glei , Psychology and Philosophy
+
+020 Give and Take , Adam Grant , Psychology and Philosophy
+
 111 The Lightning Thief , Rick Riordan , Fiction
 
 112 A Bend In The River , V.S. Naipaul , Political Fiction
