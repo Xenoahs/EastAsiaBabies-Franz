@@ -88,9 +88,7 @@ void Admin::mainMenu()
 	cout << setw(89) << "[2] Edit Book" << endl;
 	cout << setw(91) << "[3] Delete Book" << endl;
 	cout << setw(94) << "[4] View All Books" << endl;
-	cout << setw(100) << "[5] Check Borrowed Books" << endl;
-	cout << setw(97) << "[6] Add Announcements" << endl;
-	cout << setw(84) << "[7] Exit" << endl << endl;
+	cout << setw(84) << "[5] Exit" << endl << endl;
 
 	cout << "\n\n";
 
@@ -148,12 +146,6 @@ void Admin::mainMenu()
 		break;
 
 	case 5:
-		break;
-
-	case 6:
-		break;
-
-	case 7:
 
 		return;
 

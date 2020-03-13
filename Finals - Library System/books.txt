@@ -1,1 +1,100 @@
-111 The Lightning Thief , Rick Riordan , Fiction
+001 A Theory of Justice, John Rawls, General Works
+002 Essential Manager's Manual, Robert Heller, General Works
+003 The Myths of Nutrition and Fitness, Anthony A. Goodman, General Works
+004 Death: A Philosophy Course,  Shelly Kagan, General Works
+005 The Selfish Gene, Richard Dawkins, General Works
+006 Regarding the Pain of Others, Susan Sontag, General Works
+007 Personal Memoirs, Ulysses Grant, General Works
+008 Relativity: The Special and the General Theory, Albert Einstein, General Works
+009 1001 Books You Must Read Before You Die, Peter Boxali, General Works
+010 Beyond Good and Evil, Friedrich Nietzsche, General Works
+101 On Looking: Eleven Walks with Expert Eyes , Alexandra Horowitz , Psychology and Philosophy
+102 Time Warped: Unlocking the Mysteries of Time Perception , Claudia Hammond , Psychology and Philosophy
+103 How to Find Fulfilling Work , Roman Krznaric , Psychology and Philosophy
+104 Intuition Pumps And Other Tools for Thinking , Daniel Dennet , Psychology and Philosophy
+105 Mastermind: How to Think Like Sherlock Holmes , Maria Konnikova , Psychology and Philosophy
+106 Make Good Art , Neil Gaiman , Psychology and Philosophy
+107 How Children Succeed , Paul Tough , Psychology and Philosophy
+108 Thinking: The New Science of Decision-Making, Problem-Solving, and Prediction , John Brockman , Psychology and Philosophy
+109 Manage Your Day-to-Day , Jocelyn Glei , Psychology and Philosophy
+110 Give and Take , Adam Grant , Psychology and Philosophy
+201 Mere Christianity, C.S Lewis, Religion
+202 The God Delusion, Richard Dawkins, Religion
+203 God Is Not Great: How Religion Poisons Everything, Christopher Hitchens, Religion
+204 The Screwtape Letters, C.S Lewis, Religion
+205 Zealot: The Life and Times of Jesus of Nazareth, Reza Aslan, Religion
+206 Under the Banner of Heaven: A Story of Violent Faith, John Krakauer, Religion
+207 Siddhartha, Hermann Hesse, Religion
+208 Tao Te Ching, Lao Tzu, Religion
+209 The Bhagavad Gita, Krishna-Dwaipayana Vyasa, Religion
+210  Letter to a Christian Nation, Sam Harris, Religion
+301 Child, Family, and Community , Rebecca Laff , Social Science
+302 Psychology: The Science of Human Potential , Jeffrey Levy , Social Science
+303 Trauma-Informed School Practices: Building Expertise To Transform Schools , Anna Berardi , Social Science
+304 Child Growth and Development , Jeniffer Paris , Social Science
+305 Statistical Thinking for the 21st Century , Russell Poldrack , Social Science
+306 Wellbeing in Educational Contexts , Susan Carter , Social Science
+307 Speaking of Culture , Nolan Weil , Social Science
+308 Introduction to Design Equity , Kristine Miller, Social Science
+309 The Art of Being Human: A Textbook for Cultural Anthropology , Michael Wesch , Social Science
+310 Beyond Race: Cultural Influences on Human Social Life , Vera Kennedy , Social Science
+401 The Mother Tongue: English and How It Got That Way, Bill Bryson, Language
+402 Eats, Shoots & Leaves: The Zero Tolerance Approach to Punctuation, Lynne Truss, Language
+403 The Language Instinct: How the Mind Creates Language, Steven Pinker, Language
+404 Through the Language Glass: Why the World Looks Different in Other Languages, Guy Deutscher, Language
+405 The Elements of Style, William Strunk Jr., Language
+406 Fluent Forever: How to Learn Any Language Fast and Never Forget It,  Gabriel Wyner, Language
+407 The Etymologicon: A Circular Stroll through the Hidden Connections of the English Language,  Mark Forsyth, Language
+408 Empires of the Word: A Language History of the World, Nicholas Ostler, Language
+409 Our Magnificent Bastard Tongue: The Untold History of English, John McWhorter, Language
+410 The Adventure of English: The Biography of a Language, Melvyn Bragg, Language
+501 Applications of Maxwell's Equations , John Cochran , Natural Science
+502 Foundations of Epidemiology , Marit Bovbjerg , Natural Science
+503 Human Anatomy Lab Manual , Malgosia Wilk-Blaszczak , Natural Science
+504 Bending the Curve: Climate Change Solutions , Roger Aines , Natural Science
+505 Conservation Biology in Sub-Saharan Africa , John Wilson , Natural Science
+506 A Laboratory Guide to Clinical Hematology , Valentin Villatoro , Natural Science
+507 University Physics I: Classical Mechanics , Julio Gea-Banacloche , Natural Science
+508 Astronomy for Educators , Daniel Barth , Natural Science
+509 Quantitative Ecology: A New Unified Approach , Clarence Lehman , Natural Science
+510 Undergraduate Diagnostic Imaging Fundamentals , Brent Burbridge , Natural Science
+601 The Black Swan: The Impact of the Highly Improbable, Nassim Nicholas Taleb, Applied Science 
+602 Brain on Fire: My Month of Madness, Susannah Cahalan, Applied Science
+603 Starting Strength: Basic Barbell Training,  Mark Rippetoe, Applied Science
+604 Reversing Inflammation: Prevent Disease, Slow Aging, and Super-Charge Your Weight Loss, Don Colbert, Applied Science
+605 How Everything Works: Making Physics Out of the Ordinary,  Louis A. Bloomfield, Applied Science
+606 How to Design and Build Your Own Custom Robot, David L. Heiserman, Applied Science
+607 The Player of Games, Iain M. Banks, Applied Science
+608 Mind Children: The Future of Robot and Human Intelligence,  Hans Moravec, Applied Science
+609 The Anthropic Cosmological Principle,  John D. Barrow, Applied Science
+610 The Master Algorithm: How the Quest for the Ultimate Learning Machine Will Remake Our World,  Pedro Domingos, Applied Science
+701 Much Loved , Mark Nixon , Fine Arts and Recreation
+702 Define by Design , Kathryn Anthony , Fine Arts and Recreation
+703 Redskins , C. Richard King , Fine Arts and Recreation
+704 Lost Arts of the Sportsman , Frncis Buzzacott , Fine Arts and Recreation
+705 The Lonely City: Adventures in the Art of Being Alone , Olivia Laing , Fine Arts and Recreation
+706 Felines of New York , Jim Tews , Fine Arts and Recreation
+707 The Renaissance: Studies in Art and Poetry , Walter Pater , Fine Arts and Recreation
+708 The Liveliest Art: A Panoramic History of the Movies , Arthur Knight , Fine Arts and Recreation
+709 The Complete Films of Bette Davis , Gene Ringgold , Fine Arts and Recreation
+710 A Special Kind of Magic , Roy Newquist , Fine Arts and Recreation
+801 The Great Gatsby,  F. Scott Fitzgerald, Literature
+802 To Kill a Mockingbird, Harper Lee, Literature
+803 1984,  George Orwell, Literature
+804 Pride and Prejudice, Jane Austen, Literature
+805 The Catcher in the Rye, J.D. Salinger, Literature
+806 Lord of the Flies, William Golding, Literature
+807 Of Mice and Men, John Steinbeck, Literature
+808 Jane Eyre, Charlotte Brontë, Literature 
+809 Brave New World, Aldous Huxley, Literature
+810 Frankenstein, Mary Wollstonecraft Shelley, Literature
+901 Salt: A World History , Mark Kurlansky , History and Geography
+902 A People’s History of the United States , Howard Zinn , History and Geography
+903 Sapiens: A Brief History of Humankind , Yuval Noah Harari , History and Geography
+904 SPQR: A History of Ancient Rome , Mary Beard , History and Geography
+905 The Autobiography of Benjamin Franklin , Benjamin Franklin , History and Geography
+906 Genghis Khan and the Making of the Modern World , Jack Weatherford , History and Geography
+907 A Little History of the World , E.H. Gombrich , History and Geography
+908 India: A History , John Keay , History and Geography
+909 The Invention of Nature: Alexander von Humboldt’s New World , Andrea Wulf , History and Geography
+910 The World is Flat: A Brief History of the Twenty-first Century , Thomas Friedman , History and Geography

@@ -73,6 +73,32 @@ void Books::createBook()
 	cout << "Enter Book ID: ";
 	cin >> bookNumber;
 
+	for (size_t i = 0; i < book.size(); i++)
+	{
+
+		while (bookNumber == book[i].bookNumber || title == book[i].title && author == book[i].author && genre == book[i].genre)
+		{
+
+			cout << "Error, that book already exists in our records.";
+
+			cin.clear();
+			cin.ignore(100, '\n');
+
+			cout << "Enter the book's title: ";
+			getline(cin, title);
+
+			cout << "Enter the full name of the book's author: ";
+			getline(cin, author);
+
+			cout << "Enter the book's genre: ";
+			getline(cin, genre);
+
+			cout << "Enter Book ID: ";
+			cin >> bookNumber;
+
+		}
+	}
+
 	book.push_back(Books());
 	activeBook = book.size() - 1;
 	book[activeBook].initialize(title, author, genre, bookNumber);
@@ -150,8 +176,9 @@ void Books::editBook()
 	cout << "\nEnter the Book Number of the book you want to edit: ";
 	cin >> this->choice;
 
+	chosenChoice = this->choice;
+
 	string line = "";
-	stringstream str;
 	int i = 0;
 
 	ifstream inFile("books.txt");
@@ -169,11 +196,24 @@ void Books::editBook()
 
 			}
 
+
+
 		}
 
 	}
 
 	inFile.close();
+
+	if (chosenChoice != book[activeBook].bookNumber)
+	{
+
+		system("cls");
+
+		editBook();
+
+	}
+
+	cin.ignore();
 
 	cout << "You selected the book: " << this->book[activeBook].getTitle() << endl << endl;
 	
@@ -181,21 +221,29 @@ void Books::editBook()
 	getline(cin, title);
 	if (this->title.empty())
 		this->title = oldTitle;
+	else
+		book[activeBook].title = this->title;
 
 	cout << "Enter new Author (Leave blank for no change): ";
 	getline(cin, author);
 	if (this->author.empty())
 		this->author = oldAuthor;
+	else
+		book[activeBook].author = this->author;
 
 	cout << "Enter new Genre (Leave blank for no change): ";
 	getline(cin, genre);
 	if (this->genre.empty())
 		this->genre = oldGenre;
+	else
+		book[activeBook].genre = this->genre;
 
 	cout << "Enter new Book Number (Enter 0 for no change): ";
 	cin >> this->bookNumber;
 	if (this->bookNumber == 0)
 		this->bookNumber = oldBookNumber;
+	else
+		book[activeBook].bookNumber = this->bookNumber;
 
 }
 
@@ -260,10 +308,10 @@ void Books::viewBook()
 	for (size_t i = 0; i < book.size(); i++)
 	{
 
-		cout << setw(78) << "Index: " << i << endl;
-		cout << setw(84) << "Book Number: " << book[i].getBookNumber() << endl;
-		cout << setw(78) << "Title: " << book[i].getTitle() << endl;
-		cout << setw(79) << "Author: " << book[i].getAuthor() << endl << endl;
+		cout << setw(75) << "Index: " << i << endl;
+		cout << setw(81) << "Book Number: " << book[i].getBookNumber() << endl;
+		cout << setw(75) << "Title: " << book[i].getTitle() << endl;
+		cout << setw(76) << "Author: " << book[i].getAuthor() << endl << endl;
  
 	}
 

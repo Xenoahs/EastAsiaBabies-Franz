@@ -23,12 +23,14 @@
     <ClCompile Include="Books.cpp" />
     <ClCompile Include="loadingScreen.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Student.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Admin.h" />
     <ClInclude Include="Books.h" />
     <ClInclude Include="Includes.h" />
     <ClInclude Include="loadingScreen.h" />
+    <ClInclude Include="Student.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

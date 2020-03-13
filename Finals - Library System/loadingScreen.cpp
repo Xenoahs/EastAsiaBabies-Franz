@@ -1,7 +1,9 @@
 #include "loadingScreen.h"
 #include "Admin.h"
+#include "Student.h"
 
 Admin admin;
+Student student;
 
 void loadingScreen::mainMenu()
 {
@@ -66,7 +68,13 @@ void loadingScreen::mainMenu()
 	else if (getChoice() == "User")
 	{
 
-		cout << "User";
+		system("cls");
+
+		student.loginScreen();
+
+		system("cls");
+
+		student.mainMenu();
 
 	}
 
