@@ -4,13 +4,13 @@
 
 113 A Clockwork Orange , Anthony Burgess , Novel
 
-114 A Dance To The Music Of Time (Series) , Anthony Powell , 
+114 A Dance To The Music Of Time (Series) , Anthony Powell , Novel 
 
-115 A Farewell To Arms , Ernest Hemingway
+115 A Farewell To Arms , Ernest Hemingway , Novel
 
-116 A Handful Of Dust , Evelyn Waugh
+116 A Handful Of Dust , Evelyn Waugh, Novel
 
-117 A High Wind In Jamaica , Richard Hughes
+117 A High Wind In Jamaica , Richard Hughes, Novel
 
 118 A House For Mr Biswas , V.S. Naipaul
 
