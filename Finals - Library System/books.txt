@@ -18,45 +18,67 @@
 
 010 Beyond Good and Evil, Friedrich Nietzsche, General Works
 
-101 On Looking: Eleven Walks with Expert Eyes , Alexandra Horowitz , Psychology and Philosophy
+011 On Looking: Eleven Walks with Expert Eyes , Alexandra Horowitz , Psychology and Philosophy
 
-102 Time Warped: Unlocking the Mysteries of Time Perception , Claudia Hammond , Psychology and Philosophy
+012 Time Warped: Unlocking the Mysteries of Time Perception , Claudia Hammond , Psychology and Philosophy
 
-103 How to Find Fulfilling Work , Roman Krznaric , Psychology and Philosophy
+013 How to Find Fulfilling Work , Roman Krznaric , Psychology and Philosophy
 
-104 Intuition Pumps And Other Tools for Thinking , Daniel Dennet , Psychology and Philosophy
+014 Intuition Pumps And Other Tools for Thinking , Daniel Dennet , Psychology and Philosophy
 
-105 Mastermind: How to Think Like Sherlock Holmes , Maria Konnikova , Psychology and Philosophy
+015 Mastermind: How to Think Like Sherlock Holmes , Maria Konnikova , Psychology and Philosophy
 
-106 Make Good Art , Neil Gaiman , Psychology and Philosophy
+016 Make Good Art , Neil Gaiman , Psychology and Philosophy
 
-107 How Children Succeed , Paul Tough , Psychology and Philosophy
+017 How Children Succeed , Paul Tough , Psychology and Philosophy
 
-108 Thinking: The New Science of Decision-Making, Problem-Solving, and Prediction , John Brockman , Psychology and Philosophy
+018 Thinking: The New Science of Decision-Making, Problem-Solving, and Prediction , John Brockman , Psychology and Philosophy
 
-109 Manage Your Day-to-Day , Jocelyn Glei , Psychology and Philosophy
+019 Manage Your Day-to-Day , Jocelyn Glei , Psychology and Philosophy
 
-110 Give and Take , Adam Grant , Psychology and Philosophy
+020 Give and Take , Adam Grant , Psychology and Philosophy
 
-201 Mere Christianity, C.S Lewis, Religion
+021 Mere Christianity, C.S Lewis, Religion
 
-202 The God Delusion, Richard Dawkins, Religion
+022 The God Delusion, Richard Dawkins, Religion
 
-203 God Is Not Great: How Religion Poisons Everything, Christopher Hitchens, Religion
+023 God Is Not Great: How Religion Poisons Everything, Christopher Hitchens, Religion
 
-204 The Screwtape Letters, C.S Lewis, Religion
+024 The Screwtape Letters, C.S Lewis, Religion
 
-205 Zealot: The Life and Times of Jesus of Nazareth, Reza Aslan, Religion
+025 Zealot: The Life and Times of Jesus of Nazareth, Reza Aslan, Religion
 
-206 Under the Banner of Heaven: A Story of Violent Faith, John Krakauer, Religion
+026 Under the Banner of Heaven: A Story of Violent Faith, John Krakauer, Religion
 
-207 Siddhartha, Hermann Hesse, Religion
+027 Siddhartha, Hermann Hesse, Religion
 
-208 Tao Te Ching, Lao Tzu, Religion
+028 Tao Te Ching, Lao Tzu, Religion
 
-209 The Bhagavad Gita, Krishna-Dwaipayana Vyasa, Religion
+029 The Bhagavad Gita, Krishna-Dwaipayana Vyasa, Religion
 
-210  Letter to a Christian Nation, Sam Harris, Religion
+030  Letter to a Christian Nation, Sam Harris, Religion
+
+131 Child, Family, and Community , Rebecca Laff , Social Science
+
+132 Psychology: The Science of Human Potential , Jeffrey Levy , Social Science
+
+133 Trauma-Informed School Practices: Building Expertise To Transform Schools , Anna Berardi , Social Science
+
+134 Child Growth and Development , Jeniffer Paris , Social Science
+
+135 Statistical Thinking for the 21st Century , Russell Poldrack , Social Science
+
+136 Wellbeing in Educational Contexts , Susan Carter , Social Science
+
+137 Speaking of Culture , Nolan Weil , Social Science
+
+138 Introduction to Design Equity , Kristine Miller, Social Science
+
+139 The Art of Being Human: A Textbook for Cultural Anthropology , Michael Wesch , Social Science
+
+140 Beyond Race: Cultural Influences on Human Social Life , Vera Kennedy , Social Science
+
+
 
 111 The Lightning Thief , Rick Riordan , Fiction
 
