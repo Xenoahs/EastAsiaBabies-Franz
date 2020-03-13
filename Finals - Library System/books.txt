@@ -98,25 +98,25 @@
 
 410 The Adventure of English: The Biography of a Language, Melvyn Bragg, Language
 
-511 Applications of Maxwell's Equations , John Cochran , Natural Science
+501 Applications of Maxwell's Equations , John Cochran , Natural Science
 
-512 Foundations of Epidemiology , Marit Bovbjerg , Natural Science
+502 Foundations of Epidemiology , Marit Bovbjerg , Natural Science
 
-513 Human Anatomy Lab Manual , Malgosia Wilk-Blaszczak , Natural Science
+503 Human Anatomy Lab Manual , Malgosia Wilk-Blaszczak , Natural Science
 
-514 Bending the Curve: Climate Change Solutions , Roger Aines , Natural Science
+504 Bending the Curve: Climate Change Solutions , Roger Aines , Natural Science
 
-515 Conservation Biology in Sub-Saharan Africa , John Wilson , Natural Science
+505 Conservation Biology in Sub-Saharan Africa , John Wilson , Natural Science
 
-516 A Laboratory Guide to Clinical Hematology , Valentin Villatoro , Natural Science
+506 A Laboratory Guide to Clinical Hematology , Valentin Villatoro , Natural Science
 
-517 University Physics I: Classical Mechanics , Julio Gea-Banacloche , Natural Science
+507 University Physics I: Classical Mechanics , Julio Gea-Banacloche , Natural Science
 
-518 Astronomy for Educators , Daniel Barth , Natural Science
+508 Astronomy for Educators , Daniel Barth , Natural Science
 
-519 Quantitative Ecology: A New Unified Approach , Clarence Lehman , Natural Science
+509 Quantitative Ecology: A New Unified Approach , Clarence Lehman , Natural Science
 
-520 Undergraduate Diagnostic Imaging Fundamentals , Brent Burbridge , Natural Science
+510 Undergraduate Diagnostic Imaging Fundamentals , Brent Burbridge , Natural Science
 
 601 The Black Swan: The Impact of the Highly Improbable, Nassim Nicholas Taleb, Applied Science 
 
@@ -138,9 +138,25 @@
 
 610 The Master Algorithm: How the Quest for the Ultimate Learning Machine Will Remake Our World,  Pedro Domingos, Applied Science
 
+701 Much Loved , Mark Nixon , Fine Arts and Recreation
 
+702 Define by Design , Kathryn Anthony , Fine Arts and Recreation
 
+703 Redskins , C. Richard King , Fine Arts and Recreation
 
+704 Lost Arts of the Sportsman , Frncis Buzzacott , Fine Arts and Recreation
+
+705 The Lonely City: Adventures in the Art of Being Alone , Olivia Laing , Fine Arts and Recreation
+
+706 Felines of New York , Jim Tews , Fine Arts and Recreation
+
+707 The Renaissance: Studies in Art and Poetry , Walter Pater , Fine Arts and Recreation
+
+708 The Liveliest Art: A Panoramic History of the Movies , Arthur Knight , Fine Arts and Recreation
+
+709 The Complete Films of Bette Davis , Gene Ringgold , Fine Arts and Recreation
+
+710 A Special Kind of Magic , Roy Newquist , Fine Arts and Recreation
 
 801 The Great Gatsby,  F. Scott Fitzgerald, Literature
 
@@ -162,8 +178,25 @@
 
 810 Frankenstein, Mary Wollstonecraft Shelley, Literature
 
+901 Salt: A World History , Mark Kurlansky , History and Geography
 
+902 A People’s History of the United States , Howard Zinn , History and Geography
 
+903 Sapiens: A Brief History of Humankind , Yuval Noah Harari , History and Geography
+
+904 SPQR: A History of Ancient Rome , Mary Beard , History and Geography
+
+905 The Autobiography of Benjamin Franklin , Benjamin Franklin , History and Geography
+
+906 Genghis Khan and the Making of the Modern World , Jack Weatherford , History and Geography
+
+907 A Little History of the World , E.H. Gombrich , History and Geography
+
+908 India: A History , John Keay , History and Geography
+
+909 The Invention of Nature: Alexander von Humboldt’s New World , Andrea Wulf , History and Geography
+
+910 The World is Flat: A Brief History of the Twenty-first Century , Thomas Friedman , History and Geography
 
 
 
