@@ -118,6 +118,52 @@
 
 520 Undergraduate Diagnostic Imaging Fundamentals , Brent Burbridge , Natural Science
 
+601 The Black Swan: The Impact of the Highly Improbable, Nassim Nicholas Taleb, Applied Science 
+
+602 Brain on Fire: My Month of Madness, Susannah Cahalan, Applied Science
+
+603 Starting Strength: Basic Barbell Training,  Mark Rippetoe, Applied Science
+
+604 Reversing Inflammation: Prevent Disease, Slow Aging, and Super-Charge Your Weight Loss, Don Colbert, Applied Science
+
+605 How Everything Works: Making Physics Out of the Ordinary,  Louis A. Bloomfield, Applied Science
+
+606 How to Design and Build Your Own Custom Robot, David L. Heiserman, Applied Science
+
+607 The Player of Games, Iain M. Banks, Applied Science
+
+608 Mind Children: The Future of Robot and Human Intelligence,  Hans Moravec, Applied Science
+
+609 The Anthropic Cosmological Principle,  John D. Barrow, Applied Science
+
+610 The Master Algorithm: How the Quest for the Ultimate Learning Machine Will Remake Our World,  Pedro Domingos, Applied Science
+
+
+
+
+
+801 The Great Gatsby,  F. Scott Fitzgerald, Literature
+
+802 To Kill a Mockingbird, Harper Lee, Literature
+
+803 1984,  George Orwell, Literature
+
+804 Pride and Prejudice, Jane Austen, Literature
+
+805 The Catcher in the Rye, J.D. Salinger, Literature
+
+806 Lord of the Flies, William Golding, Literature
+
+807 Of Mice and Men, John Steinbeck, Literature
+
+808 Jane Eyre, Charlotte Brontë, Literature 
+
+809 Brave New World, Aldous Huxley, Literature
+
+810 Frankenstein, Mary Wollstonecraft Shelley, Literature
+
+
+
 
 
 
