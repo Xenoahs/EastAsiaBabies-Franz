@@ -1,6 +1,8 @@
 #include "Admin.h"
 #include "Books.h"
+#include "loadingScreen.h"
 
+loadingScreen back;
 Books book;
 
 void Admin::loginScreen()
@@ -146,9 +148,9 @@ void Admin::mainMenu()
 		break;
 
 	case 5:
-
-		return;
-
+		system("cls");
+		cin.ignore();
+		back.mainMenu();
 		break;
 
 	default:
