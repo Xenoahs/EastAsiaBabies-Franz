@@ -7,10 +7,13 @@ class Student
 
 private:
 
+	string letter;
+
 	string username;
 	string password;
 
 	int activeStudent;
+	int activeBorrow;
 	int choice;
 
 	vector<Student> login;
@@ -30,7 +33,7 @@ public:
 	void registerUser();
 	void saveUser();
 	void loadUser();
-	void locate();
+	void search();
 
 
 	// Accessors

@@ -2,11 +2,11 @@
 #include "Admin.h"
 #include "Student.h"
 
-Admin admin;
-Student student;
-
 void loadingScreen::mainMenu()
 {
+
+	Admin admin;
+	Student student;
 
 	cout << setw(138) << "=========================================================================================================" << endl;
 	cout << setw(138) << "=  ============  ===========================================      =======================================" << endl;

@@ -2,7 +2,6 @@
 #include "Books.h"
 #include "loadingScreen.h"
 
-loadingScreen back;
 Books book;
 
 void Admin::loginScreen()
@@ -36,10 +35,10 @@ void Admin::loginScreen()
 
 	cout << "\n\n";
 
-	cout << setw(90) << "Username: ";
+	cout << setw(88) << "Username: ";
 	cin >> username;
 
-	cout << setw(90) << "Password: ";
+	cout << setw(88) << "Password: ";
 	cin >> password;
 
 	while (cin.fail() || username != "admin" || password != "admin")
@@ -72,6 +71,10 @@ void Admin::loginScreen()
 void Admin::mainMenu()
 {
 
+	book.initBook();
+
+	loadingScreen loading;
+
 	cout << setw(124) << "===========================================================================\n";
 	cout << setw(124) << "====  ========  ============================  =====  ======================\n";
 	cout << setw(124) << "===    =======  ============================   ===   ======================\n";
@@ -90,7 +93,8 @@ void Admin::mainMenu()
 	cout << setw(89) << "[2] Edit Book" << endl;
 	cout << setw(91) << "[3] Delete Book" << endl;
 	cout << setw(94) << "[4] View All Books" << endl;
-	cout << setw(84) << "[5] Exit" << endl << endl;
+	cout << setw(93) << "[5] View Borrowed" << endl;
+	cout << setw(84) << "[6] Exit" << endl << endl;
 
 	cout << "\n\n";
 
@@ -125,6 +129,7 @@ void Admin::mainMenu()
 		system("cls");
 
 		book.editBook();
+		book.saveBook();
 
 		system("cls");
 		break;
@@ -149,8 +154,19 @@ void Admin::mainMenu()
 
 	case 5:
 		system("cls");
+
+		cout << setw(138) << " _______  __   __  _______  _______  ___   _  _______  ______     _______  _______  ______    ______    _______  _     _  _______  ______     _______  _______  _______  ___   _  _______  \n";
+		cout << setw(138) << "|       ||  | |  ||       ||       ||   | | ||       ||      |   |  _    ||       ||    _ |  |    _ |  |       || | _ | ||       ||      |   |  _    ||       ||       ||   | | ||       | \n";
+		cout << setw(138) << "|       ||  |_|  ||    ___||       ||   |_| ||    ___||  _    |  | |_|   ||   _   ||   | ||  |   | ||  |   _   || || || ||    ___||  _    |  | |_|   ||   _   ||   _   ||   |_| ||  _____| \n";
+		cout << setw(138) << "|       ||       ||   |___ |       ||      _||   |___ | | |   |  |       ||  | |  ||   |_||_ |   |_||_ |  | |  ||       ||   |___ | | |   |  |       ||  | |  ||  | |  ||      _|| |_____  \n";
+		cout << setw(138) << "|      _||       ||    ___||      _||     |_ |    ___|| |_|   |  |  _   | |  |_|  ||    __  ||    __  ||  |_|  ||       ||    ___|| |_|   |  |  _   | |  |_|  ||  |_|  ||     |_ |_____  | \n";
+		cout << setw(138) << "|     |_ |   _   ||   |___ |     |_ |    _  ||   |___ |       |  | |_|   ||       ||   |  | ||   |  | ||       ||   _   ||   |___ |       |  | |_|   ||       ||       ||    _  | _____| | \n";
+		cout << setw(138) << "|_______||__| |__||_______||_______||___| |_||_______||______|   |_______||_______||___|  |_||___|  |_||_______||__| |__||_______||______|   |_______||_______||_______||___| |_||_______| \n";
+
+	case 6:
+		system("cls");
 		cin.ignore();
-		back.mainMenu();
+		loading.mainMenu();
 		break;
 
 	default:

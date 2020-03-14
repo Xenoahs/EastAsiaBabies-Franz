@@ -2,10 +2,7 @@
 #include "loadingScreen.h"
 #include "Books.h"
 
-loadingScreen load;
-Books use;
-
-Student dothis;
+loadingScreen loading;
 
 Student::Student()
 {
@@ -29,6 +26,7 @@ Student::Student(string username, string password)
 void Student::loginScreen()
 {
 
+	
 	initUser();
 
 	cout << setw(129) << "=======================================================================================\n";
@@ -93,10 +91,10 @@ void Student::loginScreen()
 
 		cout << "\n\n";
 
-		cout << setw(85) << "Username: ";
+		cout << setw(83) << "Username: ";
 		cin >> username;
 
-		cout << setw(85) << "Password: ";
+		cout << setw(83) << "Password: ";
 		cin >> password;
 
 		findUser = username;
@@ -150,6 +148,9 @@ void Student::loginScreen()
 void Student::mainMenu()
 {
 
+	Books book;
+
+	book.initBook();
 	int choice = 0;
 
 	cout << setw(129) << "=======================================================================================\n";
@@ -166,13 +167,11 @@ void Student::mainMenu()
 
 	cout << "\n\n";
 
-	cout << setw(45) << "Student: " << login[activeStudent].username << endl << endl;
+	cout << setw(50) << "Student: " << login[activeStudent].username << endl << endl;
 
 	cout << setw(88) << "[1] Search Book" << endl;
-	cout << setw(88) << "[2] Locate Book" << endl;
-	cout << setw(88) << "[3] Borrow Book" << endl;
-	cout << setw(91) << "[4] View All Books" << endl;
-	cout << setw(81) << "[5] Exit" << endl << endl;
+	cout << setw(91) << "[2] View All Books" << endl;
+	cout << setw(81) << "[3] Exit" << endl << endl;
 
 	cout << "\n\n";
 
@@ -183,82 +182,377 @@ void Student::mainMenu()
 	switch(choice)
 	{
 	case 1:
+		system("cls");
 
+		search();
+
+		system("cls");
 		break;
+
 	case 2:
+		system("cls");
+		
+		book.viewBook();
+
+		system("cls");
 
 		break;
+
 	case 3:
-		dothis.locate();
-		break;
-	case 4:
 		system("cls");
-		use.viewBook();
-		system("cls");
-		break;
-	case 5:
-		system("cls");
+
 		cin.ignore();
-		load.mainMenu();
+
+		loading.mainMenu();
+
 		break;
+
 	default:
 		break;
 	}
 
 }
 
-void Student::locate()
+void Student::search()
 {
-	char choice;
-	cout << "[G]-General Works\n";
-	cout << "[P]-Psychology and Philosophy\n";
-	cout << "[R]-Religion\n";
-	cout << "[S]-Social Science\n";
-	cout << "[L]-Language\n";
-	cout << "[N]-Natural Science\n";
-	cout << "[A]-Applied Science\n";
-	cout << "[F]-Fine Arts and Recreation\n";
-	cout << "[I]-Literature\n";
-	cout << "[H]-History and Geography\n";
 
-	cin >> choice;
+	Books book;
+	string choice = "";
 
-	switch (choice) 
-	{	
+	book.initBook();
+
+	cout << setw(137) << " _______  _______  _______  ______    _______  __   __    _______  _______  _______  ___   _  _______  " << endl;
+	cout << setw(137) << "|       ||       ||   _   ||    _ |  |       ||  | |  |  |  _    ||       ||       ||   | | ||       | " << endl;
+	cout << setw(137) << "|  _____||    ___||  |_|  ||   | ||  |       ||  |_|  |  | |_|   ||   _   ||   _   ||   |_| ||  _____| " << endl;
+	cout << setw(137) << "| |_____ |   |___ |       ||   |_||_ |       ||       |  |       ||  | |  ||  | |  ||      _|| |_____  " << endl;
+	cout << setw(137) << "|_____  ||    ___||       ||    __  ||      _||       |  |  _   | |  |_|  ||  |_|  ||     |_ |_____  | " << endl;
+	cout << setw(137) << " _____| ||   |___ |   _   ||   |  | ||     |_ |   _   |  | |_|   ||       ||       ||    _  | _____| | " << endl;
+	cout << setw(137) << "|_______||_______||__| |__||___|  |_||_______||__| |__|  |_______||_______||_______||___| |_||_______| " << endl;
+
+	char choize;
+
+	cout << "\n\n";
+
+	cout << setw(92) << "[G] - General Works\n";
+	cout << setw(104) << "[P] - Psychology and Philosophy\n";
+	cout << setw(87) << "[R] - Religion\n";
+	cout << setw(93) << "[S] - Social Science\n";
+	cout << setw(87) << "[L] - Language\n";
+	cout << setw(94) << "[N] - Natural Science\n";
+	cout << setw(94) << "[A] - Applied Science\n";
+	cout << setw(103) << "[F] - Fine Arts and Recreation\n";
+	cout << setw(89) << "[I] - Literature\n";
+	cout << setw(101) << "[H] - History and Geography\n\n";
+
+	cout << setw(82) << "[E] - Exit";
+
+
+	cout << "\n\n\n";
+
+	cout << setw(95) << "Enter the letter of the category: ";
+	cin >> choize;
+
+	switch (choize)
+	{
+
+	case 'g':
 	case 'G':
-	
+
+		for (size_t i = 0; i < book.book.size(); i++)
+		{
+
+			if (book.book[i].genre == "General Works")
+			{
+
+			cout << endl;
+			cout << setw(75) << "Index: " << i << endl;
+			cout << setw(81) << "Book Number: " << book.book[i].getBookNumber() << endl;
+			cout << setw(75) << "Title: " << book.book[i].getTitle() << endl;
+			cout << setw(76) << "Author: " << book.book[i].getAuthor() << endl << endl;
+			
+			}
+
+		}
+
+		cout << "\n\n";
+
+		cout << setw(94) << "Press Enter to Continue...";
 
 		system("pause > 0");
+		system("cls");
+		search();
+
 		break;
+
+	case 'p':
 	case 'P':
 
+		for (size_t i = 0; i < book.book.size(); i++)
+		{
+
+			if (book.book[i].genre == "Psychology and Philosophy")
+			{
+
+				cout << endl;
+				cout << setw(75) << "Index: " << i << endl;
+				cout << setw(81) << "Book Number: " << book.book[i].getBookNumber() << endl;
+				cout << setw(75) << "Title: " << book.book[i].getTitle() << endl;
+				cout << setw(76) << "Author: " << book.book[i].getAuthor() << endl << endl;
+
+			}
+
+		}
+
+		cout << "\n\n";
+
+		cout << setw(94) << "Press Enter to Continue...";
+
+		system("pause > 0");
+		system("cls");
+		search();
+
 		break;
+
+	case'r':
 	case 'R':
 
+		for (size_t i = 0; i < book.book.size(); i++)
+		{
+
+			if (book.book[i].genre == "Religion")
+			{
+
+				cout << endl;
+				cout << setw(75) << "Index: " << i << endl;
+				cout << setw(81) << "Book Number: " << book.book[i].getBookNumber() << endl;
+				cout << setw(75) << "Title: " << book.book[i].getTitle() << endl;
+				cout << setw(76) << "Author: " << book.book[i].getAuthor() << endl << endl;
+
+			}
+
+		}
+
+		cout << "\n\n";
+
+		cout << setw(94) << "Press Enter to Continue...";
+
+		system("pause > 0");
+		system("cls");
+		search();
+
 		break;
+
+	case 's':
 	case 'S':
 
-		break;
-	case 'L':
+		for (size_t i = 0; i < book.book.size(); i++)
+		{
+
+			if (book.book[i].genre == "Social Science")
+			{
+
+				cout << endl;
+				cout << setw(75) << "Index: " << i << endl;
+				cout << setw(81) << "Book Number: " << book.book[i].getBookNumber() << endl;
+				cout << setw(75) << "Title: " << book.book[i].getTitle() << endl;
+				cout << setw(76) << "Author: " << book.book[i].getAuthor() << endl << endl;
+
+			}
+
+		}
+
+		cout << "\n\n";
+
+		cout << setw(94) << "Press Enter to Continue...";
+
+		system("pause > 0");
+		system("cls");
+		search();
 
 		break;
+
+	case'l':
+	case 'L':
+		
+		for (size_t i = 0; i < book.book.size(); i++)
+		{
+
+			if (book.book[i].genre == "Language")
+			{
+
+				cout << endl;
+				cout << setw(75) << "Index: " << i << endl;
+				cout << setw(81) << "Book Number: " << book.book[i].getBookNumber() << endl;
+				cout << setw(75) << "Title: " << book.book[i].getTitle() << endl;
+				cout << setw(76) << "Author: " << book.book[i].getAuthor() << endl << endl;
+
+			}
+
+		}
+
+		cout << "\n\n";
+
+		cout << setw(94) << "Press Enter to Continue...";
+
+		system("pause > 0");
+		system("cls");
+		search();
+
+		break;
+
+	case 'n':
 	case 'N':
 
+		for (size_t i = 0; i < book.book.size(); i++)
+		{
+
+			if (book.book[i].genre == "Natural Science")
+			{
+
+				cout << endl;
+				cout << setw(75) << "Index: " << i << endl;
+				cout << setw(81) << "Book Number: " << book.book[i].getBookNumber() << endl;
+				cout << setw(75) << "Title: " << book.book[i].getTitle() << endl;
+				cout << setw(76) << "Author: " << book.book[i].getAuthor() << endl << endl;
+
+			}
+
+		}
+
+		cout << "\n\n";
+
+		cout << setw(94) << "Press Enter to Continue...";
+
+		system("pause > 0");
+		system("cls");
+		search();
+
 		break;
+
+	case 'a':
 	case 'A':
 
+		for (size_t i = 0; i < book.book.size(); i++)
+		{
+
+			if (book.book[i].genre == "Applied Science")
+			{
+
+				cout << endl;
+				cout << setw(75) << "Index: " << i << endl;
+				cout << setw(81) << "Book Number: " << book.book[i].getBookNumber() << endl;
+				cout << setw(75) << "Title: " << book.book[i].getTitle() << endl;
+				cout << setw(76) << "Author: " << book.book[i].getAuthor() << endl << endl;
+
+			}
+
+		}
+
+		cout << "\n\n";
+
+		cout << setw(94) << "Press Enter to Continue...";
+
+		system("pause > 0");
+		system("cls");
+		search();
+
 		break;
+
+	case 'f':
 	case 'F':
 
+		for (size_t i = 0; i < book.book.size(); i++)
+		{
+
+			if (book.book[i].genre == "Fine Arts and Recreation")
+			{
+
+				cout << endl;
+				cout << setw(75) << "Index: " << i << endl;
+				cout << setw(81) << "Book Number: " << book.book[i].getBookNumber() << endl;
+				cout << setw(75) << "Title: " << book.book[i].getTitle() << endl;
+				cout << setw(76) << "Author: " << book.book[i].getAuthor() << endl << endl;
+
+			}
+
+		}
+
+		cout << "\n\n";
+
+		cout << setw(94) << "Press Enter to Continue...";
+
+		system("pause > 0");
+		system("cls");
+		search();
+
 		break;
+
+	case 'i':
 	case 'I':
 
+		for (size_t i = 0; i < book.book.size(); i++)
+		{
+
+			if (book.book[i].genre == "Literature")
+			{
+
+				cout << endl;
+				cout << setw(75) << "Index: " << i << endl;
+				cout << setw(81) << "Book Number: " << book.book[i].getBookNumber() << endl;
+				cout << setw(75) << "Title: " << book.book[i].getTitle() << endl;
+				cout << setw(76) << "Author: " << book.book[i].getAuthor() << endl << endl;
+
+			}
+
+		}
+
+		cout << "\n\n";
+
+		cout << setw(94) << "Press Enter to Continue...";
+
+		system("pause > 0");
+		system("cls");
+		search();
+
 		break;
+
+	case 'h':
 	case 'H':
 
+		for (size_t i = 0; i < book.book.size(); i++)
+		{
+
+			if (book.book[i].genre == "History and Geography")
+			{
+
+				cout << endl;
+				cout << setw(75) << "Index: " << i << endl;
+				cout << setw(81) << "Book Number: " << book.book[i].getBookNumber() << endl;
+				cout << setw(75) << "Title: " << book.book[i].getTitle() << endl;
+				cout << setw(76) << "Author: " << book.book[i].getAuthor() << endl << endl;
+
+			}
+
+		}
+
+		cout << "\n\n";
+
+		cout << setw(94) << "Press Enter to Continue...";
+
+		system("pause > 0");
+		system("cls");
+
 		break;
 
+	case 'e':
+	case 'E':
+
+		system("cls");
+
+		mainMenu();
+
 	}
+
 	cin.ignore();
 }
 
@@ -269,6 +563,7 @@ void Student::initialize(const string username, const string password)
 	this->password = password;
 
 }
+
 
 void Student::initUser()
 {
@@ -308,10 +603,10 @@ void Student::registerUser()
 	for (size_t i = 0; i < login.size(); i++)
 	{
 
-		while (username == login[i].username && password == login[i].password)
+		while (username == login[i].username || password == login[i].password)
 		{
 
-			cout << "That user already exists in our records.";
+			cout << "\nThat user already exists in our records.";
 			cin.clear();
 			cin.ignore(100, '\n');
 
@@ -389,3 +684,4 @@ void Student::loadUser()
 	}
 
 }
+

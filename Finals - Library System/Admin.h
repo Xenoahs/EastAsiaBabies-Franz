@@ -6,11 +6,11 @@ class Admin
 {
 private:
 
-	bool running;
+	bool running = true;
 
 	string username;
 	string password;
-	int choice;
+	int choice = 0;
 
 public:
 

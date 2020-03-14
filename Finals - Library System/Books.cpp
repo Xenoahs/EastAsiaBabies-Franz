@@ -8,7 +8,6 @@ Books::Books()
 	genre = "";
 
 	bookNumber = 0;
-	activeBook = 0;
 
 }
 
@@ -108,8 +107,8 @@ void Books::createBook()
 string Books::getAsString() const
 {
 
-	return to_string(bookNumber) + " " + title + " , " + author
-		+ " , " + genre;
+	return to_string(bookNumber) + " " + title + ", " + author
+		+ ", " + genre;
 
 }
 
@@ -131,7 +130,7 @@ void Books::saveBook()
 	if (outFile.is_open())
 	{
 
-		for (size_t i = 0; i < book.size(); i++)
+		for (size_t i = 0; i < this->book.size(); i++)
 		{
 
 			outFile << this->book[i].getAsString() << endl;
@@ -147,12 +146,6 @@ void Books::saveBook()
 void Books::editBook()
 {
 
-	string oldTitle = book[activeBook].getTitle();
-	string oldAuthor = book[activeBook].getAuthor();
-	string oldGenre = book[activeBook].getGenre();
-	int oldBookNumber = book[activeBook].getBookNumber();
-
-	choice = 0;
 	int chosenChoice = 0;
 
 	cout << setw(124) << " _______  ______   ___   _______    _______  _______  _______  ___   _  \n";
@@ -179,15 +172,9 @@ void Books::editBook()
 	chosenChoice = this->choice;
 
 	string line = "";
-	int i = 0;
-
-	ifstream inFile("books.txt");
 
 	for (size_t i = 0; i < book.size(); i++)
 	{
-
-		if (inFile.is_open())
-		{
 
 			if (chosenChoice == book[i].bookNumber)
 			{
@@ -197,12 +184,7 @@ void Books::editBook()
 			}
 
 
-
-		}
-
 	}
-
-	inFile.close();
 
 	if (chosenChoice != book[activeBook].bookNumber)
 	{
@@ -215,35 +197,42 @@ void Books::editBook()
 
 	cin.ignore();
 
+	string oldTitle = book[activeBook].getTitle();
+	string oldAuthor = book[activeBook].getAuthor();
+	string oldGenre = book[activeBook].getGenre();
+	int oldBookNumber = book[activeBook].getBookNumber();
+
 	cout << "You selected the book: " << this->book[activeBook].getTitle() << endl << endl;
 	
 	cout << "Enter new Title (Leave blank for no change): ";
-	getline(cin, title);
+	getline(cin, this->title);
+
 	if (this->title.empty())
 		this->title = oldTitle;
-	else
-		book[activeBook].title = this->title;
+
+	cout << title;
 
 	cout << "Enter new Author (Leave blank for no change): ";
-	getline(cin, author);
+	getline(cin, this->author);
+
 	if (this->author.empty())
 		this->author = oldAuthor;
-	else
-		book[activeBook].author = this->author;
+
 
 	cout << "Enter new Genre (Leave blank for no change): ";
-	getline(cin, genre);
+	getline(cin, this->genre);
+
 	if (this->genre.empty())
 		this->genre = oldGenre;
-	else
-		book[activeBook].genre = this->genre;
+
 
 	cout << "Enter new Book Number (Enter 0 for no change): ";
 	cin >> this->bookNumber;
+
 	if (this->bookNumber == 0)
 		this->bookNumber = oldBookNumber;
-	else
-		book[activeBook].bookNumber = this->bookNumber;
+
+	book[activeBook].initialize(title, author, genre, bookNumber);
 
 }
 
@@ -276,8 +265,7 @@ void Books::loadBook()
 		str >> bookNumber;
 		getline(str >> ws, title, ',');
 		getline(str >> ws, author, ',');
-		getline(str >> ws, genre, ',');
-		
+		getline(str >> ws, genre);
 		
 		Books temp(title, author, genre, bookNumber);
 
@@ -288,8 +276,6 @@ void Books::loadBook()
 		}
 
 	}
-
-	inFile.close();
 
 }
 
@@ -304,16 +290,15 @@ void Books::viewBook()
 	cout << setw(142) << " |     | |   | |   |___ |   _   |  |   _   ||       ||       |  | |_|   ||       ||       ||    _  | _____| | \n";
 	cout << setw(144) << "  |___|  |___| |_______||__| |__|  |__| |__||_______||_______|  |_______||_______||_______||___| |_||_______| \n\n\n";
 
+		for (size_t i = 0; i < book.size(); i++)
+		{
 
-	for (size_t i = 0; i < book.size(); i++)
-	{
-
-		cout << setw(75) << "Index: " << i << endl;
-		cout << setw(81) << "Book Number: " << book[i].getBookNumber() << endl;
-		cout << setw(75) << "Title: " << book[i].getTitle() << endl;
-		cout << setw(76) << "Author: " << book[i].getAuthor() << endl << endl;
+			cout << setw(75) << "Index: " << i << endl;
+			cout << setw(81) << "Book Number: " << book[i].getBookNumber() << endl;
+			cout << setw(75) << "Title: " << book[i].getTitle() << endl;
+			cout << setw(76) << "Author: " << book[i].getAuthor() << endl << endl;
  
-	}
+		}
 
 	cout << setw(80) << "\n\n Press Enter to Continue...";
 
@@ -325,8 +310,8 @@ void Books::deleteBook()
 {
 
 	string line = "";
-	string deleteString = book[activeBook].getAsString();
-	int deleteBook;
+	string deleteString = "";
+	int deleteBook = 0;
 
 	char oldFileName[50] = "books.txt";
 	char newFileName[50] = "newBooks.txt";
@@ -349,6 +334,8 @@ void Books::deleteBook()
 
 	}
 
+	cin.ignore();
+
 	cout << "\nEnter the Book Number of the book you want to delete: ";
 	cin >> deleteBook;
 
@@ -356,6 +343,7 @@ void Books::deleteBook()
 	ofstream outFile;
 
 	inFile.open(oldFileName);
+
 	outFile.open(newFileName);
 
 	for (size_t i = 0; i < book.size(); i++)
@@ -369,6 +357,8 @@ void Books::deleteBook()
 		}
 
 	}
+
+	deleteString = book[activeBook].getAsString();
 
 	if (outFile.is_open())
 	{
@@ -396,12 +386,14 @@ void Books::deleteBook()
 	{
 
 		perror("Error in deleting book.");
+		Sleep(1000);
 
 	}
 
 	else
 		cout << "Book deleted successfully.";
-
+	Sleep(1000);
+	
 	book.erase(book.begin() + activeBook);
 	activeBook = activeBook - 1;
 
@@ -414,5 +406,4 @@ void Books::deleteBook()
 	}
 
 }
-
 

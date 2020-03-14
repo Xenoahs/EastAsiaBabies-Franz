@@ -8,6 +8,7 @@ class Books
 private:
 
 	vector<Books> book;
+	vector<Books> borrow;
 
 	string title;
 	string author;
@@ -22,6 +23,8 @@ public:
 	Books();
 
 	Books(string title, string author, string genre, int bookNumber);
+
+	friend class Student;
 
 	void initBook();
 	void loadBook();
